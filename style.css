@@ -25,6 +25,7 @@
 
 /* main design */
 
+/* navbar design */
 header {
     background-color: #FFFFFF;
     border: 1px solid black;
@@ -39,6 +40,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 
 nav .nav-links ul{
@@ -64,4 +66,96 @@ nav .logo{
 }
 nav .logo img {
     width: 100%;
+}
+
+/* hero banner design */
+
+#hero {
+    padding: 120px 0 200px;
+    background-image: url("./assets/hero-bg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero .hero-container {
+    margin: 0 auto;
+    width: 87%;
+    max-width: 1400px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+#hero .hero-container .hero-head {
+    text-align: center;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+}
+
+#hero .hero-container .hero-head .hero-offer{
+    max-width: 240px;
+    max-height: 35px;
+    margin: 0 auto;
+    padding: 12px 8px;
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+    color: #469165;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-container .hero-head .hero-offer p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#hero .hero-container .hero-intro {
+    margin-bottom: 20px;
+}
+
+#hero .hero-container .hero-intro h1{
+    font-size: 70px;
+}
+
+#hero .hero-container .hero-text {
+    margin: 0 auto;
+    max-width: 700px;
+    margin-bottom: 38px;
+}
+
+#hero .hero-container .hero-text p{
+    color: #FFFFFF;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+#hero .hero-container .hero-btn {
+    margin: 0 auto;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-container .hero-btn .hero-btn-1{
+    background-color: #469165;
+    padding: 17px 16px 17px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#hero .hero-container .hero-btn .hero-btn-2{
+    background-color: transparent;
+    padding: 16px 16px 16px 16px;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
 }
