@@ -105,6 +105,7 @@ nav .logo img {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 6px;
 }
 
 #hero .hero-container .hero-head .hero-offer p {
@@ -149,6 +150,10 @@ nav .logo img {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 #hero .hero-container .hero-btn .hero-btn-2 {
@@ -305,8 +310,8 @@ nav .logo img {
 
 #challenge .challenge-container{
     margin: 0 auto;
-    width: 87%;
-    max-width: 1400px;
+    width: 93%;
+    max-width: 1500px;
     /* border: 1px solid green; */
     text-align: center;
     padding: 80px 40px;
@@ -327,13 +332,61 @@ nav .logo img {
     margin-bottom: 24px;
 }
 
-#challenge .challenge-container button{
+#challenge .challenge-container .challenge-btn button{
+    margin: 0 auto;
     margin-bottom: 16px;
-}
-
-#challenge .challenge-container button .challenge-btn{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+/* footer design */
+
+footer {
+    background-color: #001931;
+}
+
+footer .footer-container {
+    margin: 0 auto;
+    width: 93%;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 120px 80px;
+}
+
+footer .footer-container .footer-menu p{
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+footer .footer-container .footer-menu .footer-links{
+    display: flex;
+    list-style-type: none;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+footer .copyright {
+    margin: 0 auto;
+    width: 93%;
+    max-width: 1500px;
+    text-align: center;
+    padding: 30px 0;
+    color: #FAFAFA;
+    font-size: 16px;
+    line-height: 24px;
+    border-top: 1px solid #e5e7eb8e;
 }
