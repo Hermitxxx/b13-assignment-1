@@ -177,8 +177,6 @@ nav .logo img {
 #card .card-container {
     margin: 0 auto;
     text-align: center;
-    width: 1600px;
-    max-width: 1600px;
 }
 
 .card-container .card-head {
@@ -204,6 +202,8 @@ nav .logo img {
     justify-content: center;
     align-items: center;
     gap: 24px;
+    width: 1600px;
+    max-width: 1600px;
 }
 
 .card-container .card-section .cards {
