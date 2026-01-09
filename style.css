@@ -32,6 +32,7 @@ header {
 }
 
 nav {
+    /* border: 1px solid red; */
     width: 87%;
     max-width: 1400px;
     margin: 0 auto;
@@ -43,6 +44,7 @@ nav {
 }
 
 nav .nav-links ul {
+    /* border: 1px solid red; */
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -59,6 +61,7 @@ nav .nav-links a {
 }
 
 nav .logo {
+    /* border: 1px solid red; */
     max-width: 140px;
 }
 
@@ -82,10 +85,12 @@ nav .logo img {
     width: 87%;
     max-width: 1400px;
     text-align: center;
+    /* border: 1px solid red; */
 }
 
 #hero .hero-container .hero-head {
     text-align: center;
+    /* border: 1px solid red; */
     margin-bottom: 20px;
 }
 
@@ -177,6 +182,8 @@ nav .logo img {
 #card .card-container {
     margin: 0 auto;
     text-align: center;
+    width: 100%;
+    max-width: 1600px;
 }
 
 .card-container .card-head {
@@ -202,8 +209,6 @@ nav .logo img {
     justify-content: center;
     align-items: center;
     gap: 24px;
-    width: 1600px;
-    max-width: 1600px;
 }
 
 .card-container .card-section .cards {
@@ -249,13 +254,14 @@ nav .logo img {
 }
 
 .brain-container {
-    width: 1600px;
-    max-width: 1600px;
     display: flex;
     gap: 60px;
     margin: 0 auto;
+    /* border: 1px solid red; */
     align-items: center;
     justify-content: space-between;
+    width: 93%;
+    max-width: 1500px;
 }
 
 .brain-container .brain-info-container {
@@ -311,8 +317,8 @@ nav .logo img {
 
 #challenge .challenge-container{
     margin: 0 auto;
-    width: 1600px;
-    max-width: 1600px;
+    width: 93%;
+    max-width: 1500px;
     text-align: center;
     padding: 80px 40px;
     background-color: #F7F6F2;
@@ -350,8 +356,8 @@ footer {
 
 footer .footer-container {
     margin: 0 auto;
-    width: 100%;
-    max-width: 1600px;
+    width: 93%;
+    max-width: 1500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
