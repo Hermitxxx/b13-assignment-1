@@ -167,7 +167,7 @@ nav .logo img {
 
 #card {
     padding: 80px 120px;
-    background-color: #fafafa;
+    background-color: #F7F6F2;
 }
 
 #card .card-container {
@@ -240,7 +240,7 @@ nav .logo img {
 
 #brain {
     padding: 120px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .brain-container {
@@ -248,6 +248,7 @@ nav .logo img {
     width: 87%;
     max-width: 1400px;
     gap: 60px;
+    margin: 0 auto;
 }
 
 .brain-container .brain-info-container {
@@ -295,3 +296,44 @@ nav .logo img {
     margin-bottom: 16px;
 }
 
+/* challenge part design */
+
+#challenge {
+    padding: 2px 120px 120px 120px;
+    /* border: 1px solid red; */
+}
+
+#challenge .challenge-container{
+    margin: 0 auto;
+    width: 87%;
+    max-width: 1400px;
+    /* border: 1px solid green; */
+    text-align: center;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+}
+
+#challenge .challenge-container h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+#challenge .challenge-container p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+#challenge .challenge-container button{
+    margin-bottom: 16px;
+}
+
+#challenge .challenge-container button .challenge-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
