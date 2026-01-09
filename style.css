@@ -5,8 +5,8 @@
 }
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
 /* shared design */
@@ -43,7 +43,7 @@ nav {
     margin: 0 auto;
 }
 
-nav .nav-links ul{
+nav .nav-links ul {
     /* border: 1px solid red; */
     list-style-type: none;
     display: flex;
@@ -60,10 +60,11 @@ nav .nav-links a {
     opacity: 90%;
 }
 
-nav .logo{
+nav .logo {
     /* border: 1px solid red; */
     max-width: 140px;
 }
+
 nav .logo img {
     width: 100%;
 }
@@ -93,7 +94,7 @@ nav .logo img {
     margin-bottom: 20px;
 }
 
-#hero .hero-container .hero-head .hero-offer{
+#hero .hero-container .hero-head .hero-offer {
     max-width: 240px;
     max-height: 35px;
     margin: 0 auto;
@@ -106,7 +107,7 @@ nav .logo img {
     align-items: center;
 }
 
-#hero .hero-container .hero-head .hero-offer p{
+#hero .hero-container .hero-head .hero-offer p {
     font-size: 16px;
     font-weight: 500;
 }
@@ -115,7 +116,7 @@ nav .logo img {
     margin-bottom: 20px;
 }
 
-#hero .hero-container .hero-intro h1{
+#hero .hero-container .hero-intro h1 {
     font-size: 70px;
 }
 
@@ -125,7 +126,7 @@ nav .logo img {
     margin-bottom: 38px;
 }
 
-#hero .hero-container .hero-text p{
+#hero .hero-container .hero-text p {
     color: #FFFFFF;
     line-height: 40px;
     font-size: 18px;
@@ -139,7 +140,7 @@ nav .logo img {
     align-items: center;
 }
 
-#hero .hero-container .hero-btn .hero-btn-1{
+#hero .hero-container .hero-btn .hero-btn-1 {
     background-color: #469165;
     padding: 17px 16px 17px 16px;
     border: none;
@@ -150,7 +151,7 @@ nav .logo img {
     cursor: pointer;
 }
 
-#hero .hero-container .hero-btn .hero-btn-2{
+#hero .hero-container .hero-btn .hero-btn-2 {
     background-color: transparent;
     padding: 16px 16px 16px 16px;
     border: none;
@@ -179,14 +180,14 @@ nav .logo img {
     margin-bottom: 35px;
 }
 
-.card-container .card-head h2{
+.card-container .card-head h2 {
     color: #001931;
     font-size: 44px;
     margin-bottom: 16px;
     font-weight: bold;
 }
 
-.card-container .card-head p{
+.card-container .card-head p {
     color: #627382;
     font-size: 16px;
     line-height: 20px;
@@ -199,7 +200,7 @@ nav .logo img {
     gap: 24px;
 }
 
-.card-container .card-section .cards{
+.card-container .card-section .cards {
     max-width: 322px;
     height: 300px;
     /* border: 1px solid hsla(0, 0%, 0%, 0.075); */
@@ -211,7 +212,7 @@ nav .logo img {
     background-color: #FFFFFF;
 }
 
-.card-container .card-section .cards .card-img{
+.card-container .card-section .cards .card-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,16 +224,74 @@ nav .logo img {
     margin-bottom: 16px;
 }
 
-.card-container .card-section .cards h3{
+.card-container .card-section .cards h3 {
     color: #001931;
     margin-bottom: 16px;
     font-size: 20px;
 }
 
-.card-container .card-section .cards p{
+.card-container .card-section .cards p {
     color: #627382;
     line-height: 20px;
 }
 
 
+/* brain section */
+
+#brain {
+    padding: 120px;
+    border: 1px solid red;
+}
+
+.brain-container {
+    display: flex;
+    width: 87%;
+    max-width: 1400px;
+    gap: 60px;
+}
+
+.brain-container .brain-info-container {
+    padding: 102px 0;
+    text-align: left;
+}
+
+.brain-info-container .brain-info .green-head {
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.brain-info-container .brain-info h1 {
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.brain-info-container .brain-info p {
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.brain-info-container .brain-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.brain-info-container .brain-info li .text{
+    color: #001931;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.brain-info-container .brain-info li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 16px;
+}
 
