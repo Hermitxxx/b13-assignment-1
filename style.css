@@ -259,6 +259,8 @@ nav .logo img {
     /* border: 1px solid red; */
     align-items: center;
     justify-content: space-between;
+    width: 93%;
+    max-width: 1500px;
 }
 
 .brain-container .brain-info-container {
@@ -314,8 +316,8 @@ nav .logo img {
 
 #challenge .challenge-container{
     margin: 0 auto;
-    width: 100%;
-    /* max-width: 1500px; */
+    width: 93%;
+    max-width: 1500px;
     text-align: center;
     padding: 80px 40px;
     background-color: #F7F6F2;
