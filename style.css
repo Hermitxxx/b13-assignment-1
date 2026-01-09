@@ -73,7 +73,7 @@ nav .logo img {
 #hero {
     padding: 120px 0 200px;
     background-image: url("./assets/hero-bg.png");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,6 +147,7 @@ nav .logo img {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 #hero .hero-container .hero-btn .hero-btn-2{
@@ -157,5 +158,81 @@ nav .logo img {
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
     font-size: 16px;
+    cursor: pointer;
     font-weight: 600;
 }
+
+/* card section */
+
+#card {
+    padding: 80px 120px;
+    background-color: #fafafa;
+}
+
+#card .card-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-container .card-head {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.card-container .card-head h2{
+    color: #001931;
+    font-size: 44px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.card-container .card-head p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.card-container .card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.card-container .card-section .cards{
+    max-width: 322px;
+    height: 300px;
+    /* border: 1px solid hsla(0, 0%, 0%, 0.075); */
+    margin: 0 auto;
+    box-shadow: 0 0 8px 0 hsla(0, 0%, 0%, 0.034);
+    text-align: center;
+    padding: 60px 20px 40px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.card-container .card-section .cards .card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F95555;
+    border-radius: 50%;
+    max-width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.card-container .card-section .cards h3{
+    color: #001931;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.card-container .card-section .cards p{
+    color: #627382;
+    line-height: 20px;
+}
+
+
+
