@@ -177,7 +177,7 @@ nav .logo img {
 #card .card-container {
     margin: 0 auto;
     text-align: center;
-    width: 100%;
+    width: 1600px;
     max-width: 1600px;
 }
 
@@ -249,13 +249,13 @@ nav .logo img {
 }
 
 .brain-container {
+    width: 1600px;
+    max-width: 1600px;
     display: flex;
     gap: 60px;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    max-width: 1600px;
 }
 
 .brain-container .brain-info-container {
@@ -311,7 +311,7 @@ nav .logo img {
 
 #challenge .challenge-container{
     margin: 0 auto;
-    width: 100%;
+    width: 1600px;
     max-width: 1600px;
     text-align: center;
     padding: 80px 40px;
